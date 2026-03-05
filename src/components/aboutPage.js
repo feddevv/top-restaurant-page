@@ -3,6 +3,7 @@ import { team } from "../data/team.js"
 export default function createAboutPage() {
     const aboutDiv = document.createElement('div')
     const content = document.getElementById('content')
+    content.innerHTML = ''
 
     // Headline
     const headline = document.createElement('h1')

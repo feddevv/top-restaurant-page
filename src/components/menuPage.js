@@ -3,6 +3,7 @@ import { menu } from "../data/menu.js"
 export default function createMenuPage() {
     const menuDiv = document.createElement('div')
     const content = document.getElementById('content')
+    content.innerHTML = ''
 
     // Headline
     const headline = document.createElement('h1')

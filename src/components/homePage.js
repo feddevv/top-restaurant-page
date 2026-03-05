@@ -3,6 +3,7 @@ export default function renderHomePage() {
     homeDiv.id = 'home'
 
     const content = document.getElementById('content')
+    content.innerHTML = ''
 
     // Headline
     const headline = document.createElement('h1')
