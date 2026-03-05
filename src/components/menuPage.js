@@ -9,6 +9,7 @@ export default function createMenuPage() {
     headline.textContent = 'Menu'
     menuDiv.appendChild(headline)
 
+    // Menu
     for (const [key, value] of Object.entries(menu)) {
         const subHeadLine = document.createElement('h2')
         subHeadLine.textContent = key
