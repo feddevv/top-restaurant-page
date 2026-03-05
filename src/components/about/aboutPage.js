@@ -1,7 +1,9 @@
+import './styles.css'
 import { team } from "../../data/team.js"
 
 export default function createAboutPage() {
     const aboutDiv = document.createElement('div')
+    aboutDiv.id = 'about'
     const content = document.getElementById('content')
     content.innerHTML = ''
 

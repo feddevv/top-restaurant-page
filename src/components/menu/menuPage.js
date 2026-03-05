@@ -1,7 +1,9 @@
+import './styles.css'
 import { menu } from "../../data/menu.js"
 
 export default function createMenuPage() {
     const menuDiv = document.createElement('div')
+    menuDiv.id = 'menu'
     const content = document.getElementById('content')
     content.innerHTML = ''
 
