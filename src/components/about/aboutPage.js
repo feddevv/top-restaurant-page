@@ -1,4 +1,4 @@
-import { team } from "../data/team.js"
+import { team } from "../../data/team.js"
 
 export default function createAboutPage() {
     const aboutDiv = document.createElement('div')
