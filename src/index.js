@@ -4,9 +4,9 @@ import aboutPage from './components/about/aboutPage.js'
 
 import './styles.css'
 
-const homeButton = document.getElementById('home')
-const menuButton = document.getElementById('menu')
-const aboutButton = document.getElementById('about')
+const homeButton = document.getElementById('home-btn')
+const menuButton = document.getElementById('menu-btn')
+const aboutButton = document.getElementById('about-btn')
 
 homeButton.addEventListener('click', homePage)
 menuButton.addEventListener('click', menuPage)
