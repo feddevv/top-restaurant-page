@@ -1,6 +1,6 @@
-import homePage from './components/homePage.js'
-import menuPage from './components/menuPage.js'
-import aboutPage from './components/aboutPage.js'
+import homePage from './components/home/homePage.js'
+import menuPage from './components/menu/menuPage.js'
+import aboutPage from './components/about/aboutPage.js'
 
 const homeButton = document.getElementById('home')
 const menuButton = document.getElementById('menu')

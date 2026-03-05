@@ -1,3 +1,5 @@
+import './styles.css'
+
 export default function renderHomePage() {
     const homeDiv = document.createElement('div')
     homeDiv.id = 'home'
