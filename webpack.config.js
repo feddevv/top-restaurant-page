@@ -13,7 +13,7 @@ export default {
     devServer: {
         watchFiles: ['./src/template.html']
     },
-    modules: {
+    module: {
         rules: [
             {
                 test: /\.css$i/,
