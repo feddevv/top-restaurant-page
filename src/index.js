@@ -2,6 +2,8 @@ import homePage from './components/home/homePage.js'
 import menuPage from './components/menu/menuPage.js'
 import aboutPage from './components/about/aboutPage.js'
 
+import './styles.css'
+
 const homeButton = document.getElementById('home')
 const menuButton = document.getElementById('menu')
 const aboutButton = document.getElementById('about')
