@@ -35,6 +35,7 @@ header ul {
     border-radius: .4rem;
 
     cursor: pointer;
+    transition: box-shadow .2s, background-color .2s;
 }
 
 .btn:hover {
